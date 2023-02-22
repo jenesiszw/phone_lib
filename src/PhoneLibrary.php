@@ -134,7 +134,7 @@ class PhoneLibrary
         $phoneNumberProto = $this->phoneNumberProto;
         $phoneUtil = $this->phoneUtil;
 
-        $this->setResponse(['isoFormat' => $phoneUtil->format($phoneNumberProto, PhoneNumberFormat::E164)]);
+        $this->setResponse(['standardFormat' => $phoneUtil->format($phoneNumberProto, PhoneNumberFormat::E164)]);
 
         return $this;
     }
