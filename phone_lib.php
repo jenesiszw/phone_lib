@@ -15,6 +15,7 @@ $data =  $phone = (new PhoneLibrary($number, 'ZW'))
     ->getCarrierProvider()
     ->getPhoneDescription()
     ->getTimeZone()
+    ->getE164Format()
     ->done();
 
 
