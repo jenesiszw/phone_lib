@@ -1,0 +1,24 @@
+{
+    "name": "jenesiszw/phone_lib",
+    "description": "a wrapper on php phone library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nigel Jaure",
+            "email": "nigeljaure.t@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "JenesisZw\\": "src/"
+        }
+    },
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.13"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
