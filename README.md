@@ -9,7 +9,7 @@ a classic wrapper for libphonenumber for PHP by https://github.com/giggsey
 ### Installtion
 
 ```
-composer require jenesiszw/phone_lib:dev-master
+composer require jenesiszw/phone_lib
 ```
 
 ---
