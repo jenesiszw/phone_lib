@@ -21,7 +21,7 @@ composer require jenesiszw/phone_lib:dev-master
 
 use JenesisZw\PhoneLibrary;
 
-require __DIR__ . '/bootstrap/app.php';
+require __DIR__ . '/vendor/autoload.php'';
 
 ```
 
